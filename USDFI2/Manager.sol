@@ -2,8 +2,8 @@
  * @title Manager
  * @dev Manager contract
  *
- * @author - <MIDGARD TRUST>
- * for the Midgard Trust
+ * @author - <USDFI TRUST>
+ * for the USDFI Trust
  *
  * SPDX-License-Identifier: GNU GPLv2
  *
@@ -67,7 +67,7 @@ contract Manager is Ownable {
     /**
      * @dev Sets the {fee} for transfers.
      *
-     * How many fees should be deducted from a transaction.
+     * How much fees should be deducted from a transaction.
      *
      * Requirements:
      *
@@ -83,7 +83,7 @@ contract Manager is Ownable {
     /**
      * @dev Sets the {fee} for ref level 1.
      *
-     * How many ref level 1 fees should be deducted from a fee.
+     * How much ref level 1 fees should be deducted from a fee.
      *
      * Requirements:
      *
@@ -99,7 +99,7 @@ contract Manager is Ownable {
     /**
      * @dev Sets the {fee} for ref level 2.
      *
-     * how many ref level 2 fees should be deducted from a fee.
+     * how much ref level 2 fees should be deducted from a fee.
      *
      * Requirements:
      *
@@ -115,7 +115,7 @@ contract Manager is Ownable {
     /**
      * @dev Sets the {fee} for ref level 3.
      *
-     * how many ref level 3 fees should be deducted from a fee.
+     * how much ref level 3 fees should be deducted from a fee.
      *
      * Requirements:
      *
@@ -131,7 +131,7 @@ contract Manager is Ownable {
     /**
      * @dev Sets the {fee} for ref level 3.
      *
-     * how many ref level 3 fees should be deducted from a fee.
+     * how much ref level 3 fees should be deducted from a fee.
      *
      * Requirements:
      *
