@@ -2,8 +2,8 @@
  * @title ERC20
  * @dev ERC20 contract
  *
- * @author - <MIDGARD TRUST>
- * for the Midgard Trust
+ * @author - <USDFI TRUST>
+ * for the USDFI Trust
  *
  * SPDX-License-Identifier: GNU GPLv2
  *
