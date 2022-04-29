@@ -2,8 +2,8 @@
  * @title Address
  * @dev Address contract
  *
- * @author - <MIDGARD TRUST>
- * for the Midgard Trust
+ * @author - <USDFI TRUST>
+ * for the USDFI Trust
  *
  * SPDX-License-Identifier: GNU GPLv2
  *
@@ -82,7 +82,7 @@ library Address {
      * plain`call` is an unsafe replacement for a function call: use this
      * function instead.
      *
-     * If `target` reverts with a revert reason, it is bubbled up by this
+     * If `target` reverts with a revert reason, it is inflated by this
      * function (like regular Solidity function calls).
      *
      * Returns the raw returned data. To convert to the expected return value,
