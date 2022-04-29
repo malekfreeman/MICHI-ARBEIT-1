@@ -2,8 +2,8 @@
  * @title Address
  * @dev Address contract
  *
- * @author - <MIDGARD TRUST>
- * for the Midgard Trust
+ * @author - <USDFI TRUST>
+ * for the USDFI Trust
  *
  * SPDX-License-Identifier: GNU GPLv2
  *
@@ -22,8 +22,8 @@ library Address {
      *
      * [IMPORTANT]
      * ====
-     * It is unsafe to assume that an address for which this function returns
-     * false is an externally-owned account (EOA) and not a contract.
+     * It is not safe to assume that an address - for which this function returns
+     * false - is an externally-owned account (EOA) and not a contract.
      *
      * Among others, `isContract` will return false for the following
      * types of addresses:
@@ -58,8 +58,8 @@ library Address {
      *
      * https://diligence.consensys.net/posts/2019/09/stop-using-soliditys-transfer-now/[Learn more].
      *
-     * IMPORTANT: because control is transferred to `recipient`, care must be
-     * taken to not create reentrancy vulnerabilities. Consider using
+     * IMPORTANT: because control is transferred to `recipient`, caution must be
+     * used in order not to create reentrancy vulnerabilities. Consider using
      * {ReentrancyGuard} or the
      * https://solidity.readthedocs.io/en/v0.5.11/security-considerations.html#use-the-checks-effects-interactions-pattern[checks-effects-interactions pattern].
      */
@@ -82,7 +82,7 @@ library Address {
      * plain`call` is an unsafe replacement for a function call: use this
      * function instead.
      *
-     * If `target` reverts with a revert reason, it is bubbled up by this
+     * If `target` reverts with a revert reason, it is inflated by this
      * function (like regular Solidity function calls).
      *
      * Returns the raw returned data. To convert to the expected return value,
@@ -143,7 +143,7 @@ library Address {
 
     /**
      * @dev Same as {xref-Address-functionCallWithValue-address-bytes-uint256-}[`functionCallWithValue`], but
-     * with `errorMessage` as a fallback revert reason when `target` reverts.
+     * with `errorMessage` as a fallback revert-reason when `target` reverts.
      *
      * _Available since v3.1._
      */
