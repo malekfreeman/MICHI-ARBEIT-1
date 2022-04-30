@@ -2,8 +2,8 @@
  * @title Interface Referrals
  * @dev IReferrals contract
  *
- * @author Felix Götz - <AUREUM VICTORIA>
- * on behalf of Securus Technologies LLC
+ * @author <USDFI TRUST>
+ * on behalf of USDFI Trust
  *
  * SPDX-License-Identifier: GNU GPLv2
  *
