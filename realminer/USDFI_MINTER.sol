@@ -2,8 +2,8 @@
  * @title USDFI MINTER
  * @dev USDFI_MINTER contract
  *
- * @author - <MIDGARD TRUST>
- * for the Midgard Trust
+ * @author - <USDFI TRUST>
+ * for the USDFI Trust
  *
  * SPDX-License-Identifier: Business Source License 1.1
  *
