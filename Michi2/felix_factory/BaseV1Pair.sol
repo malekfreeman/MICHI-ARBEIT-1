@@ -193,7 +193,7 @@ contract BaseV1Pair {
         emit Fees(msg.sender, 0, amount);
     }
 
-    // this function MUST be called on any balance changes, otherwise can be used to infinitely claim fees
+    // this function MUST be called on any balance changes, otherwise it can be used to infinitely claim fees
     // Fees are segregated from core funds, so fees can never put liquidity at risk
     function _updateFor(address recipient) internal {
         uint _supplied = balanceOf[recipient]; // get LP balance of `recipient`
