@@ -20,8 +20,8 @@ contract BaseV1Fees {
 
     address internal immutable factory; // Factory that created the pairs
     address internal immutable pair; // The pair it is bonded to
-    address internal immutable token0; // token0 of pair, saved localy and statically for gas optimization
-    address internal immutable token1; // Token1 of pair, saved localy and statically for gas optimization
+    address internal immutable token0; // token0 of pair, saved locally and statically for gas optimization
+    address internal immutable token1; // Token1 of pair, saved locally and statically for gas optimization
 
     uint256 public protocolFee = 0;
     uint256 public usdfiMakerFee = 800;
